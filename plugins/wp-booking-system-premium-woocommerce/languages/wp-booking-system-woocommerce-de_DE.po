@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Booking System - WooCommerce Add-on\n"
+"POT-Creation-Date: 2021-02-02 01:37+0100\n"
+"PO-Revision-Date: 2021-02-03 05:54+0100\n"
+"Last-Translator: Tobias D. <info@td-projects.de>\n"
+"Language-Team: Tobias D. <info@td-projects.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/base/admin/form/functions.php:19
+#: includes/base/admin/form/views/view-edit-form-tab-woocommerce.php:29
+msgid "WooCommerce Field Mapping"
+msgstr "WooCommerce Feldzuweisung"
+
+#: includes/base/admin/form/functions.php:58
+msgid "First Name"
+msgstr "Vorname"
+
+#: includes/base/admin/form/functions.php:59
+msgid "Last Name"
+msgstr "Nachname"
+
+#: includes/base/admin/form/functions.php:60
+msgid "Company"
+msgstr "Unternehmen"
+
+#: includes/base/admin/form/functions.php:61
+msgid "Address 1"
+msgstr "Adresse 1"
+
+#: includes/base/admin/form/functions.php:62
+msgid "Address 2"
+msgstr "Adresse 2"
+
+#: includes/base/admin/form/functions.php:63
+msgid "City"
+msgstr "Stadt"
+
+#: includes/base/admin/form/functions.php:64
+msgid "Postcode"
+msgstr "Postleitzahl"
+
+#: includes/base/admin/form/functions.php:65
+msgid "Country"
+msgstr "Land"
+
+#: includes/base/admin/form/functions.php:66
+msgid "State"
+msgstr "Staat"
+
+#: includes/base/admin/form/functions.php:67
+msgid "Email"
+msgstr "E-Mail"
+
+#: includes/base/admin/form/functions.php:68
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/base/admin/form/views/view-edit-form-tab-woocommerce.php:30
+msgid ""
+"Automatically fill in the Checkout Form fields in WooCommerce with valus "
+"from the Booking Form."
+msgstr ""
+"Fülle die Kassenformularfelder in WooCommerce automatisch mit Werten aus "
+"dem Buchungsformular aus."
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:8
+#: includes/base/functions.php:55
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:8
+msgid ""
+"Give the customer the option to pay with a credit card using WooCommerce."
+msgstr ""
+"Gib dem Kunden die Möglichkeit, mit einer Kreditkarte über WooCommerce zu "
+"bezahlen."
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:14
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:31
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:32
+msgid "The payment method name that appears on the booking form."
+msgstr ""
+"Der Name der Zahlungsmethode, der auf dem Buchungsformular angezeigt wird."
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:37
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:65
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:92
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:59
+msgid "Description"
+msgstr "Beschreibung"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:60
+msgid "The payment method description that appears on the booking form."
+msgstr ""
+"Die Beschreibung der Zahlungsmethode, die auf dem Buchungsformular "
+"angezeigt wird."
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:87
+msgid "Pay Button Label"
+msgstr "Bezahlen Button Bezeichnung"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:113
+msgid "WooCommerce Product"
+msgstr "WooCommerce Produkt"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:114
+msgid "Select a product that will be associated with all booking payments."
+msgstr ""
+"Wähle ein Produkt aus, das mit allen Buchungszahlungen verknüpft werden "
+"soll."
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:128
+msgid "Disable Emails"
+msgstr "Emails deaktivieren"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:129
+msgid ""
+"Disable the \"Order Completed\" emails sent by WooCommerce to the customer "
+"to avoid duplicate emails if you enabled User Notifications in WP Booking "
+"System."
+msgstr ""
+"Deaktiviere die \"Bestellung abgeschlossen\"-E-Mails, die von WooCommerce "
+"an den Kunden gesendet werden, um doppelte E-Mails zu vermeiden, wenn du "
+"Benutzerbenachrichtigungen in WP Booking System aktiviert hast."
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:143
+msgid "Disable 'Thank You' Page"
+msgstr "Danke-Seite deaktivieren"
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:144
+msgid ""
+"Disable the default WooCommerce 'Thank You' page. After the payment is "
+"completed, redirect the customer back to the calendar page and show WP "
+"Booking System's confirmation message instead of WooCommerce's confirmation "
+"page."
+msgstr ""
+"Deaktiviere die standardmäßige WooCommerce \"Danke\"-Seite. Nachdem die "
+"Zahlung abgeschlossen ist, leite den Kunden zurück zur Kalenderseite und "
+"zeige die Bestätigungsmeldung von WP Booking System anstelle der "
+"Bestätigungsseite von WooCommerce."
+
+#: includes/base/admin/settings/views/view-payment-settings-woocommerce.php:157
+msgid ""
+"If you need help setting up setting up WooCommerce, <a target=\"_blank\" "
+"href=\"https://www.wpbookingsystem.com/documentation/woocommerce-checkout-"
+"integration/\">check out our guide</a> which offers step by step "
+"instructions."
+msgstr ""
+"Wenn du Hilfe bei der Einrichtung von WooCommerce brauchst, schau dir die "
+"<a target=\"_blank\" href=\"https://www.wpbookingsystem.com/documentation/"
+"mollie-integration/\">Schritt für Schritt Anleitung in unserem Leitfaden</"
+"a> an."
+
+#: includes/base/functions-actions-woocommerce.php:59
+msgid "No WooCommerce product is selected for handling reservations."
+msgstr ""
+"Es ist kein WooCommerce-Produkt für die Verarbeitung von Reservierungen "
+"ausgewählt."
+
+#: includes/base/functions-actions-woocommerce.php:69
+msgid ""
+"The currency in WooCommerce does not match the one set in WP Booking System."
+msgstr ""
+"Die Währung in WooCommerce stimmt nicht mit der in WP Booking System "
+"eingestellten Währung überein."
+
+#: includes/base/functions-actions-woocommerce.php:82
+msgid "Something went wrong. Please refresh the page and try again."
+msgstr ""
+"Etwas ist schief gelaufen. Bitte aktualisiere die Seite und versuche es "
+"erneut."
+
+#: includes/base/functions-actions-woocommerce.php:103
+msgid "The mimimun payable amount is 0.50$"
+msgstr "Der Mindestbetrag liegt bei 0,50€"
+
+#: includes/base/functions-part-payments.php:174
+msgid "The form was successfully submitted."
+msgstr "Das Formular wurde erfolgreich übermittelt."
+
+#: includes/base/functions-woocommerce.php:279
+msgid ""
+"Other products cannot be added to the cart while a reservation is present."
+msgstr ""
+"Andere Produkte können nicht in den Warenkorb gelegt werden, solange eine "
+"Reservierung vorhanden ist."
+
+#: includes/base/functions-woocommerce.php:445
+#: includes/base/functions-woocommerce.php:480
+msgid "Calendar Name"
+msgstr "Kalender Name"
+
+#: includes/base/functions-woocommerce.php:448
+msgid "Booking Details"
+msgstr "Buchungsdetails"
+
+#: includes/base/functions-woocommerce.php:484
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: includes/base/functions-woocommerce.php:488
+msgid "End Date"
+msgstr "Enddatum"
+
+#: includes/base/functions.php:56
+msgid "Check out with WooCommerce."
+msgstr "Kasse mit WooCommerce."
+
+#: includes/base/functions.php:57
+msgid "Pay with WooCommerce."
+msgstr "Bezahlen mit WooCommerce."
+
+#: index.php:140
+msgid ""
+"The <strong>WooCommerce</strong> Add-on requires WP Booking System version "
+msgstr ""
+"Das <strong>WooCommerce</strong> Add-on erfordert WP Booking System Version "
+
+#. Plugin Name of the plugin/theme
+msgid "WP Booking System - WooCommerce Add-on"
+msgstr "WP Booking System - WooCommerce Add-on"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.wpbookingsystem.com/"
+msgstr "https://www.wpbookingsystem.com/"
+
+#. Description of the plugin/theme
+msgid "Allow customers to checkout with WooCommerce"
+msgstr "Erlaube Kunden, über WooCommerce zu bezahlen"
+
+#. Author of the plugin/theme
+msgid "Veribo, Roland Murg"
+msgstr "Veribo, Roland Murg"
