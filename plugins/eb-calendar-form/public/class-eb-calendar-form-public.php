@@ -77,6 +77,16 @@ class Eb_Calendar_Form_Public {
 
 	}
 
+	public function shortcode_ejemplo(){
+		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-calendar-form-public-display.php';
+		add_shortcode( 'MENSAJE', 'dcms_mensaje' );
+	}
+
+	public function shortcode_admin_vista(){
+		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-calendar-form-public-display.php';
+		add_shortcode( 'ADMIN_VISTA', 'dcms_admin_vista' );
+	}
+
 	/**
 	 * Register the JavaScript for the public-facing side of the site.
 	 *

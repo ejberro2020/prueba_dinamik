@@ -11,6 +11,12 @@
  * @package    Eb_Calendar_Form
  * @subpackage Eb_Calendar_Form/public/partials
  */
-?>
 
-<!-- This file should primarily consist of HTML with a little bit of PHP. -->
+function dcms_mensaje( $atts , $content ){
+    return 'ESTE ES EL SHORTCODE MENSAJE';
+
+}
+
+function dcms_admin_vista(){
+    
+}

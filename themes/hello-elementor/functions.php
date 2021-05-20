@@ -183,3 +183,11 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+
+function wpbs_add_custom_currency($currencies){
+    $currencies['COP'] = 'Colombian Pesos';
+    return $currencies;
+}
+add_filter('wpbs_currencies', 'wpbs_add_custom_currency', 10, 1);
+
+
