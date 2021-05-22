@@ -1,0 +1,40 @@
+2021-05-22T15:30:42+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 41
+
+2021-05-22T15:31:54+00:00 CRITICAL syntax error, unexpected 'table' (T_STRING), expecting ',' or ';' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 45
+
+2021-05-22T21:39:51+00:00 CRITICAL syntax error, unexpected '$caledarios' (T_VARIABLE) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 27
+
+2021-05-22T21:39:55+00:00 CRITICAL syntax error, unexpected '$caledarios' (T_VARIABLE) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 27
+
+2021-05-22T21:40:05+00:00 CRITICAL syntax error, unexpected '$caledarios' (T_VARIABLE) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 27
+
+2021-05-22T21:40:07+00:00 CRITICAL syntax error, unexpected '$caledarios' (T_VARIABLE) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 27
+
+2021-05-22T21:40:10+00:00 CRITICAL syntax error, unexpected '$caledarios' (T_VARIABLE) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 27
+
+2021-05-22T21:40:13+00:00 CRITICAL syntax error, unexpected '$caledarios' (T_VARIABLE) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 27
+
+2021-05-22T21:52:46+00:00 CRITICAL syntax error, unexpected 'JSON' (T_STRING), expecting ')' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 25
+
+2021-05-22T21:52:58+00:00 CRITICAL syntax error, unexpected 'JSON' (T_STRING), expecting ')' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 25
+
+2021-05-22T21:53:01+00:00 CRITICAL syntax error, unexpected 'JSON' (T_STRING), expecting ')' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 25
+
+2021-05-22T22:00:54+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 27
+
+2021-05-22T22:15:16+00:00 CRITICAL syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 32
+
+2021-05-22T22:17:20+00:00 CRITICAL syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 32
+
+2021-05-22T22:19:19+00:00 CRITICAL syntax error, unexpected end of file en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 70
+
+2021-05-22T22:20:43+00:00 CRITICAL syntax error, unexpected '<' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 37
+
+2021-05-22T22:20:45+00:00 CRITICAL syntax error, unexpected '<' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 37
+
+2021-05-22T22:21:04+00:00 CRITICAL syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 32
+
+2021-05-22T22:21:07+00:00 CRITICAL syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 32
+
+2021-05-22T22:21:07+00:00 CRITICAL syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php en la línea 32
+

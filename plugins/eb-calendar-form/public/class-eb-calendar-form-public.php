@@ -73,19 +73,27 @@ class Eb_Calendar_Form_Public {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/eb-calendar-form-public.css', array(), $this->version, 'all' );
+		/**wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/eb-calendar-form-public.css', array(), $this->version, 'all' );**/
 
+		/**
+		 * AÑADIR VARIOS ARCHIVO CSS DE BOOTSTRAP 5.
+		*/
+		wp_register_style( 'custom_css', plugin_dir_url( __FILE__ ) . 'css/bootstrap.min.css'  );
+		wp_register_style( 'custom_css2', plugin_dir_url( __FILE__ ) . 'css/eb-calendar-form-public.css' );
+
+		wp_enqueue_style('custom_css', false, $this->version, false );
+		wp_enqueue_style('custom_css2' );
+		
+		//wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/bootstrap.min.css', array(), '5.0.1', 'all' );
+		
 	}
 
 	public function shortcode_ejemplo(){
 		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-calendar-form-public-display.php';
+		
 		add_shortcode( 'MENSAJE', 'dcms_mensaje' );
 	}
 
-	public function shortcode_admin_vista(){
-		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-calendar-form-public-display.php';
-		add_shortcode( 'ADMIN_VISTA', 'dcms_admin_vista' );
-	}
 
 	/**
 	 * Register the JavaScript for the public-facing side of the site.
@@ -106,8 +114,21 @@ class Eb_Calendar_Form_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/eb-calendar-form-public.js', array( 'jquery' ), $this->version, false );
+		//wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/eb-calendar-form-public.js', array( 'jquery' ), $this->version, false ); 
+		
+		/**
+		 * AÑADIR VARIOS ARCHIVO CSS DE BOOTSTRAP 5.
+		*/
 
+		wp_register_script( 'custom_js', plugin_dir_url( __FILE__ ) . 'js/bootstrap.min.js' );
+		wp_register_script( 'custom_js2', plugin_dir_url( __FILE__ ) . 'js/eb-calendar-form-public.js' );
+
+		wp_enqueue_script('custom_js', array( 'jquery' ), $this->version, false );
+		//wp_enqueue_script('custom_js2', array( 'jquery' ), $this->version, false );
+
+		//wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bootstrap.min.js', array( 'jquery' ), $this->version, false ); 
 	}
 
+
+	 
 }

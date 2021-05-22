@@ -23,12 +23,13 @@ function dcms_mensaje( $atts , $content ){
     $tabla_woocommerce_order_items = $wpdb->prefix . 'woocommerce_order_items'; 
     $tabla_woocommerce_order_itemmeta = $wpdb->prefix . 'woocommerce_order_itemmeta';    
 
-    $query =  $wpdb->get_results("SELECT JSON_OBJECT( 'id', c.id, 'name', c.name, 'date_created', c.date_created,  
-    
-    ) AS dato FROM $tabla_calendars c "); 
+    /*$query =  $wpdb->get_results(" SELECT JSON OBJECT ( 'order_id', o.order_id,  'status', o.status   ) AS dato FROM $tabla_wp_wc_order_stats o WHERE o.order_id = 34 "); */
 
- 
-    print_r($query);
+    $query = $wpdb->prepare( "SELECT fields FROM $tabla_wpbs_bookings WHERE id = 1" );    
+
+    $string = $wpdb->get_var( $query );
+    $someArray = json_decode( $string, true );
+    print_r($someArray);
 
 
 
@@ -56,4 +57,3 @@ function dcms_mensaje( $atts , $content ){
 
 
 }
-
