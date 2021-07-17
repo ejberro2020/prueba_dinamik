@@ -14,46 +14,67 @@
 
 
 function dcms_mensaje( $atts , $content ){
-     
     global $wpdb;
-    $tabla_calendars = $wpdb->prefix . 'wpbs_calendars';
-    $tabla_calendars_meta = $wpdb->prefix . 'wpbs_calendar_meta';
-    $tabla_wpbs_bookings = $wpdb->prefix . 'wpbs_bookings';
-    $tabla_wp_wc_order_stats = $wpdb->prefix . 'wp_wc_order_stats';
-    $tabla_woocommerce_order_items = $wpdb->prefix . 'woocommerce_order_items'; 
-    $tabla_woocommerce_order_itemmeta = $wpdb->prefix . 'woocommerce_order_itemmeta';    
+    $t_bookings = $wpdb->prefix . 'wpbs_bookings'; 
+    $t_calendars = $wpdb->prefix . 'wpbs_calendars';
+    $t_payments = $wpdb->prefix . 'wpbs_payments';
+    $tabla_calendars_meta = $wpdb->prefix . 'wpbs_calendar_meta';    
+    $calendarios =  $wpdb->get_results("SELECT b.id, b.start_date, b.end_date, b.date_created, b.status, c.name, o.order_id   FROM $t_calendars c INNER JOIN $t_bookings b ON b.calendar_id = c.id INNER JOIN  $t_payments o ON b.id = o.booking_id");
 
-    $query =  $wpdb->get_results("SELECT JSON_OBJECT( 'id', c.id, 'name', c.name, 'date_created', c.date_created,  
     
-    ) AS dato FROM $tabla_calendars c "); 
-
- 
-    print_r($query);
-
+    $arrayPHP = "Eres el amo";
+    ob_start();
+    ?>
 
 
-    /* CODIGO FUENTE PARA MOSTRAR ARRAY DE DATOS ORIGEN JSON
-    <?php 
-        $project_id = $_SESSION['project_id']; $query = $wpdb->prepare( "SELECT reward_details FROM wpxa_orocox_rewards WHERE project_id = %d", $project_id );
 
-            $string = $wpdb->get_var( $query );
-
-            $someArray = json_decode( $string, true );
-
-                $count = count( $someArray['reward_title'] );
-                for ( $i = 0; $i < $count; $i++ ) { ?>
-
-            <div class="panel panel-default">
-            <div class="panel-body">
-                <?php echo $someArray["reward_amount"][$i]; ?>
-                <?php echo $someArray["reward_title"][$i]; ?>
-                <?php echo $someArray["reward_description"][$i]; ?>
-            </div>
-            </div>
-
-            <?php } ?>
-    */
-
+        <p>Date: <input type="text" id="datepicker"></p>
+        <br>
+        <table class="table table-primary table-info table-hover">
+        <thead class="table-primary">
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Cabaña</th>
+            <th scope="col">F Reserva</th>    
+            <th scope="col">F Inicio</th>
+            <th scope="col">F Fin</th>
+            <th scope="col">status</th>
+            <th scope="col"># Orden Pago</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <?php
+                foreach ($calendarios as $calendario){
+                    $id = (int)$calendario->id;
+                    $name = esc_textarea($calendario->name);
+                    $f_reserva = $calendario->date_created;
+                    $f_inicio = $calendario->start_date;
+                    $f_fin = $calendario->end_date;
+                    $status = esc_textarea($calendario->status);
+                    $order_id = (int)$calendario->order_id;
+                    echo "<tr class='table-light'>";
+                    echo "<td>$id</td>
+                          <td>$name</td>
+                          <td>$f_reserva</td>   
+                          <td>$f_inicio</td>     
+                          <td>$f_fin</td>
+                          <td>$status</td>
+                          <td>$order_id</td>
+                          </tr>";
+                }
+            ?>
+            </tbody>
+            </table>
+            <?php $array_php = array('29-5-2021','30-5-2021','31-5-2021'); ?>
+            <script>
+            
+                var array_js = ;
+                
+            
+                
+            </script>
+      
+    <?php
+    return ob_get_clean();
 
 }
-

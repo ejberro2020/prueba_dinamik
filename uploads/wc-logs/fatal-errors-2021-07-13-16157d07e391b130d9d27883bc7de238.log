@@ -1,0 +1,4 @@
+2021-07-13T19:48:56+00:00 CRITICAL Cannot redeclare dcms_mensaje() (previously declared in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php:16) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 16
+
+2021-07-13T19:49:04+00:00 CRITICAL Cannot redeclare dcms_mensaje() (previously declared in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-calendar-form-public-display.php:16) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 16
+

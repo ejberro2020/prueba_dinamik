@@ -1,0 +1,84 @@
+2021-07-17T16:00:01+00:00 CRITICAL Object of class WP_Post could not be converted to string en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 71
+
+2021-07-17T16:09:36+00:00 CRITICAL Object of class WP_Post could not be converted to string en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 70
+
+2021-07-17T18:14:26+00:00 CRITICAL Cannot redeclare dcms_agregar_inmueble() (previously declared in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-agregar-inmueble.php:15) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 15
+
+2021-07-17T18:14:29+00:00 CRITICAL Cannot redeclare dcms_agregar_inmueble() (previously declared in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-agregar-inmueble.php:15) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 15
+
+2021-07-17T18:15:09+00:00 CRITICAL Cannot redeclare dcms_agregar_inmueble() (previously declared in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-agregar-inmueble.php:15) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 15
+
+2021-07-17T18:15:12+00:00 CRITICAL Cannot redeclare dcms_agregar_inmueble() (previously declared in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-agregar-inmueble.php:15) en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 15
+
+2021-07-17T18:45:11+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:25
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Cont en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 25
+
+2021-07-17T18:49:40+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:25
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Cont en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 25
+
+2021-07-17T18:50:45+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:25
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Cont en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 25
+
+2021-07-17T18:51:00+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:28
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Cont en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 28
+
+2021-07-17T18:53:39+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on null in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:25
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Con en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 25
+
+2021-07-17T18:54:05+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on null in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:27
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Con en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 27
+
+2021-07-17T19:04:07+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on null in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:25
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Contr en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 25
+
+2021-07-17T19:04:27+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on array in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php:26
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_detalle_ped_woo('', '', 'DETALLESPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(DETALL...', 'do_shortcode_ta...', '[DETALLESPED]')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[DETALLESPED]')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\Widget_Shortcode->render()
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(549): Elementor\Co en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-detalles-pedidos-woo.php en la línea 26
+

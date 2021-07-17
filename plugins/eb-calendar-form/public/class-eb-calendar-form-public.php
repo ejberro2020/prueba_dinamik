@@ -78,22 +78,44 @@ class Eb_Calendar_Form_Public {
 		/**
 		 * AÑADIR VARIOS ARCHIVO CSS DE BOOTSTRAP 5.
 		*/
-		wp_register_style( 'custom_css', plugin_dir_url( __FILE__ ) . 'css/bootstrap.min.css'  );
+		global $post;
+		wp_register_style( 'custom_css_bootstrap', plugin_dir_url( __FILE__ ) . 'css/bootstrap.min.css'  );
+		wp_register_style( 'custom_css_jquery', plugin_dir_url( __FILE__ ) . 'css/jquery-ui.min.css'  );
 		wp_register_style( 'custom_css2', plugin_dir_url( __FILE__ ) . 'css/eb-calendar-form-public.css' );
 
-		wp_enqueue_style('custom_css', false, $this->version, false );
-		wp_enqueue_style('custom_css2' );
-		
+
+		if ( strstr($post->post_content, '[ADD_INMUEBLE]') || strstr($post->post_content, '[LISTAWOOPED]')) 
+		{
+			wp_enqueue_style('custom_css_bootstrap', false, $this->version, false );
+			wp_enqueue_style('custom_css_jquery' );
+			
+			wp_enqueue_style('custom_css2' );
+		}
+	
 		//wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/bootstrap.min.css', array(), '5.0.1', 'all' );
 		
 	}
-
+	
+	public function shortcode_lista_ped_woo(){
+		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-lista-pedidos-woo.php';
+		
+		add_shortcode( 'LISTAWOOPED', 'dcms_lista_ped_woo' );
+	} 
+	public function shortcode_detalles_ped_woo(){
+		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-detalles-pedidos-woo.php';
+		
+		add_shortcode( 'DETALLESPED', 'dcms_detalle_ped_woo' );
+	} 
 	public function shortcode_ejemplo(){
 		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-calendar-form-public-display.php';
 		
 		add_shortcode( 'MENSAJE', 'dcms_mensaje' );
-	}
-
+	} 
+	public function shortcode_agregar_inmueble(){
+		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-agregar-inmueble.php';
+		include_once plugin_dir_path( __FILE__ ) . '/partials/eb-funciones-agregar-inmueble.php';
+		add_shortcode( 'ADD_INMUEBLE', 'dcms_agregar_inmueble' );
+	} 
 
 	/**
 	 * Register the JavaScript for the public-facing side of the site.
@@ -119,14 +141,26 @@ class Eb_Calendar_Form_Public {
 		/**
 		 * AÑADIR VARIOS ARCHIVO CSS DE BOOTSTRAP 5.
 		*/
+		
+		//wp_register_script( 'custom_js_jquery_ui', plugin_dir_url( __FILE__ ) . 'js/jquery-v1.12.1-ui.min.js' );
+		global $post;
+		wp_register_script( 'custom_js_bootstrap', plugin_dir_url( __FILE__ ) . 'js/bootstrap.min.js' );	
+		
+		wp_register_script( 'custom_js2', plugin_dir_url( __FILE__ ) . 'js/eb-calendar-form-public.js', array(), false , true );
+		wp_register_script( 'custom_js_eb-manual', plugin_dir_url( __FILE__ ) . 'js/eb-manual-js.js' );
 
-		wp_register_script( 'custom_js', plugin_dir_url( __FILE__ ) . 'js/bootstrap.min.js' );
-		wp_register_script( 'custom_js2', plugin_dir_url( __FILE__ ) . 'js/eb-calendar-form-public.js' );
-
-		wp_enqueue_script('custom_js', array( 'jquery' ), $this->version, false );
-		//wp_enqueue_script('custom_js2', array( 'jquery' ), $this->version, false );
-
+		wp_enqueue_script('jquery');
+		if ( strstr( $post->post_content, '[LISTAWOOPED]' ) ||  strstr( $post->post_content, '[ADD_INMUEBLE]' ) ) 
+		{
+		
+		wp_enqueue_script('jquery-ui-datepicker');
+		//wp_enqueue_script('custom_js_jquery_ui', array( 'jquery' ), $this->version, false);
+		wp_enqueue_script('custom_js_bootstrap', array( 'jquery' ), $this->version, false );
+		
+		wp_enqueue_script('custom_js2', array( 'jquery', 'jquery-ui-datepicker' ) );
+		wp_enqueue_script('custom_js_eb-manual', array( 'jquery', 'jquery-ui-datepicker' ) );
 		//wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bootstrap.min.js', array( 'jquery' ), $this->version, false ); 
+		}
 	}
 
 

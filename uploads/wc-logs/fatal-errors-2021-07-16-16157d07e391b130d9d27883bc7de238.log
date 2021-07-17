@@ -1,0 +1,192 @@
+2021-07-16T15:58:45+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on array in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:75
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\ en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 75
+
+2021-07-16T16:00:51+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on array in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:68
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\ en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 68
+
+2021-07-16T16:01:03+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on array in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:68
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\ en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 68
+
+2021-07-16T18:09:17+00:00 CRITICAL syntax error, unexpected ':', expecting ')' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\themes\tema-1\functions.php en la línea 6
+
+2021-07-16T18:09:17+00:00 CRITICAL syntax error, unexpected ':', expecting ')' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\themes\tema-1\functions.php en la línea 6
+
+2021-07-16T20:12:01+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:60
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 60
+
+2021-07-16T20:12:46+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:42
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 42
+
+2021-07-16T20:17:38+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:45
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 45
+
+2021-07-16T20:20:21+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:44
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 44
+
+2021-07-16T20:20:37+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:44
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 44
+
+2021-07-16T20:21:01+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:45
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 45
+
+2021-07-16T20:21:18+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:45
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 45
+
+2021-07-16T20:21:52+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_first_name() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:45
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Use en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 45
+
+2021-07-16T20:26:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_orders(), 0 passed in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php on line 20 and exactly 1 expected in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\woocommerce\includes\wc-order-functions.php:26
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php(20): wc_get_orders()
+#1 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n' en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\woocommerce\includes\wc-order-functions.php en la línea 26
+
+2021-07-16T20:41:43+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_order_total() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:52
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Us en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 52
+
+2021-07-16T20:42:34+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_order_total() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:57
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Us en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 57
+
+2021-07-16T20:48:52+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:57
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\publi en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 57
+
+2021-07-16T20:49:32+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:57
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\publi en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 57
+
+2021-07-16T20:54:01+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:58
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\publi en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 58
+
+2021-07-16T20:54:31+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:59
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\publi en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 59
+
+2021-07-16T20:55:01+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php:59
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(343): dcms_lista_ped_woo('', '', 'LISTAWOOPED')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(LISTAW...', 'do_shortcode_ta...', '[LISTAWOOPED]\n')
+#3 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\class-wp-hook.php(292): do_shortcode('[LISTAWOOPED]\n')
+#4 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters('[LISTAWOOPED]\n', Array)
+#5 C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\Usuario\Local Sites\dinamiktravel\app\publi en C:\Users\Usuario\Local Sites\dinamiktravel\app\public\wp-content\plugins\eb-calendar-form\public\partials\eb-lista-pedidos-woo.php en la línea 59
+
